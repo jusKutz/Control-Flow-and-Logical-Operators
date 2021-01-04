@@ -11,12 +11,12 @@ W = float(weight)
 BMI = (round(W / (H**2)))
 
 if BMI < 18.5:
-  print ("you are under weight.")
+  print (f"Your BMI is {BMI} and you are under weight.")
 elif BMI <=25 :
-  print ("you have a normal weight.")
+  print (f"Your BMI is {BMI} and you have a normal weight.")
 elif BMI <=30:
-  print ("you are overweight.")
+  print (f"Your BMI is {BMI} and you are overweight.")
 elif BMI <=35:
-  print ("you are obese.")
+  print (f"Your BMI is {BMI} and you are obese.")
 else:
-  print ("you are clinically obese.")
+  print (f"Your BMI is {BMI} and you are clinically obese.")
