@@ -6,43 +6,21 @@ name2 = input("What is their name? \n")
 
 #Write your code below this line 👇
 
-name1_lower = name1.lower()
-name2_lower = name2.lower()
+combined_name= name1 + name2
+lower_case_name = combined_name.lower()
 
 
-T1 = name1_lower.count('t')
-T2 = name2_lower.count('t')
-T = T1 + T2
-
-R1 = name1_lower.count('r') 
-R2 = name2_lower.count('r') 
-R = R1 + R2
-
-U1 = name1_lower.count('u') 
-U2 = name2_lower.count('u') 
-U = U1 + U2
-
-E1 = name1_lower.count('e') 
-E2 = name2_lower.count('e') 
-E = E1 + E2
+T = lower_case_name.count('t')
+R = lower_case_name.count('r') 
+U = lower_case_name.count('u') 
+E = lower_case_name.count('e') 
 
 true = T + R + U + E
 
-L1 = name1_lower.count('l') 
-L2 = name2_lower.count('l') 
-L = L1 + L2
-
-O1 = name1_lower.count('o') 
-O2 = name2_lower.count('o') 
-O = O1 + O2
-
-V1 = name1_lower.count('v') 
-V2 = name2_lower.count('v') 
-V = V1 + V2
-
-E1 = name1_lower.count('e')
-E2 = name2_lower.count('e')
-E = E1 + E2
+L = lower_case_name.count('l') 
+O = lower_case_name.count('o') 
+V = lower_case_name.count('v') 
+E = lower_case_name.count('e')
 
 love = L + O + V + E
 
